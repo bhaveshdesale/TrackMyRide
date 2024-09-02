@@ -15,7 +15,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.trackmyride.MainActivity;
 import com.example.trackmyride.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -64,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
         signupRedirectText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
+                Intent intent = new Intent(LoginActivity.this, HomeMapActivity.class);
                 startActivity(intent);
                 finish();
             }

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.trackmyride.app-mergeDebugResources-56:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.example.trackmyride.app-mergeDebugResources-57:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bhave\\.gradle\\caches\\transforms-4\\76da41960e47e6594c7f36723df44b7f\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\bhave\\.gradle\\caches\\transforms-4\\d33e43e7327795ee133d942e6bc32fae\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

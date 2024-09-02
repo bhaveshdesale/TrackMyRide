@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">TrackMyRide</string>
+    <string name="app_name" translatable="false">TrackMyRide</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_home_map" translatable="false">HomeMap</string>
+    <string name="title_activity_hoem_map" translatable="false">HoemMapActivity</string>
 </resources>

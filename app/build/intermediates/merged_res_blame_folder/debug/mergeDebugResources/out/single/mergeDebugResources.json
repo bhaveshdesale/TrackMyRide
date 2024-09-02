@@ -1,154 +1,182 @@
 [
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\layout_fragement_profile.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\layout\\fragement_profile.xml"
     },
     {
-        "merged": "com.example.trackmyride.app-debug-58:/menu_bottom_menu.xml.flat",
-        "source": "com.example.trackmyride.app-main-60:/menu/bottom_menu.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_baseline_add_circle_24.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\baseline_add_circle_24.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_applogo2.png.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\applogo2.png"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.trackmyride.app-debug-59:/layout_activity_hoem_map.xml.flat",
+        "source": "com.example.trackmyride.app-main-61:/layout/activity_hoem_map.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\layout_activity_start.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\activity_start.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_background_gradient.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\background_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_rounded_button_conductor.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\rounded_button_conductor.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\baseline_person_24.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_applogo.png.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\applogo.png"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_rounded_button_conductor.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\rounded_button_conductor.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_applogo.png.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\applogo.png"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_baseline_person_pin_24.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\baseline_person_pin_24.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_background_gradient.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\background_gradient.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\menu\\bottom_menu.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\layout_fragement_profile.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\fragement_profile.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\menu_bottom_menu.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\menu\\bottom_menu.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_lavender_border.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\lavender_border.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\layout_activity_start.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\layout\\activity_start.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\baseline_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\baseline_account_circle_24.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_lavender_border.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\lavender_border.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_baseline_add_circle_24.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\baseline_add_circle_24.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_bus.jpeg.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\bus.jpeg"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\activity_sign_up.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.trackmyride.app-debug-58:/layout_activity_home.xml.flat",
-        "source": "com.example.trackmyride.app-main-60:/layout/activity_home.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_baseline_email_24.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\baseline_email_24.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_baseline_compass_calibration_24.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\baseline_compass_calibration_24.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_baseline_account_circle_24.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\baseline_account_circle_24.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_baseline_person_pin_24.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\baseline_person_pin_24.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\drawable_baseline_home_24.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\drawable\\baseline_home_24.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.trackmyride.app-debug-58:/layout_fragment_add.xml.flat",
-        "source": "com.example.trackmyride.app-main-60:/layout/fragment_add.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-58:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\layout_fragment_add.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\layout\\fragment_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\baseline_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\drawable_baseline_compass_calibration_24.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\drawable\\baseline_compass_calibration_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-debug-59:\\layout_activity_hoem_map.xml.flat",
+        "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-61:\\layout\\activity_hoem_map.xml"
     }
 ]

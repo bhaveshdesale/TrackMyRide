@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.google.gms.google.services)
+    alias(libs.plugins.google.android.libraries.mapsplatform.secrets.gradle.plugin)
 }
 
 android {
@@ -46,6 +47,7 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.firebase.database)
+    implementation(libs.play.services.maps)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
@@ -65,6 +67,7 @@ dependencies {
     // Material Design Components
     implementation("com.google.android.material:material:1.9.0")
 
+
     // Kodein for Dependency Injection
     implementation("org.kodein.di:kodein-di:7.19.0")
     implementation("org.kodein.di:kodein-di-framework-android-x:7.19.0")
@@ -78,6 +81,7 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.7.3")
 
 
-
+//map activity
+    implementation("com.google.android.gms:play-services-maps:19.0.0")
 
 }
