@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-57:/layout/activity_home.xml",
+        "source": "com.example.trackmyride.app-main-60:/layout/activity_home.xml"
+    },
+    {
         "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-mergeDebugResources-57:\\layout\\activity_start.xml",
         "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\activity_start.xml"
     },
@@ -10,10 +14,6 @@
     {
         "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-mergeDebugResources-57:\\layout\\activity_main.xml",
         "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "com.example.trackmyride.app-mergeDebugResources-57:/layout/fragement_profile.xml",
-        "source": "com.example.trackmyride.app-main-60:/layout/fragement_profile.xml"
     },
     {
         "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-mergeDebugResources-57:\\layout\\activity_login.xml",
@@ -28,11 +28,11 @@
         "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "com.example.trackmyride.app-mergeDebugResources-57:/layout/fragment_home.xml",
-        "source": "com.example.trackmyride.app-main-60:/layout/fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-mergeDebugResources-57:\\layout\\fragment_home.xml",
         "source": "C:\\Users\\bhave\\.gradle\\daemon\\8.7\\com.example.trackmyride.app-main-60:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-57:/layout/fragment_add.xml",
+        "source": "com.example.trackmyride.app-main-60:/layout/fragment_add.xml"
     }
 ]

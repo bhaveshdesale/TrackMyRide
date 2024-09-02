@@ -41,14 +41,17 @@ public class HomeActivity extends AppCompatActivity {
 
         // Handle BottomNavigationView item selection
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
-            switch (item.getItemId()) {
-//                case R.id.home:
-//                    replaceFragment(new HomeFragment());
-//                    break;
-//                case R.id.profile:
-//                    replaceFragment(new ProfileFragement()); // Corrected the name here
-//                    break;
+            int id =item.getItemId(); {
+                if  (id==R.id.home) {
+                    replaceFragment(new HomeFragment());
+                }
+                if(id==R.id.profile)
+                    replaceFragment(new ProfileFragement()); // Ensure this class is correctly imported and named
+
+
             }
+            if(id==R.id.Add)
+                replaceFragment(new AddFragment());
             return true;
         });
     }

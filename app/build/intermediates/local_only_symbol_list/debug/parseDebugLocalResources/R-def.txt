@@ -16,13 +16,13 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable lavender_border
 drawable rounded_button_conductor
+id Add
 id appLogo
 id background
 id bottomAppBar
 id bottomNavigationView
 id conductorButton
 id decorativeElement
-id fab
 id frame_layout
 id home
 id loginRedirectText
@@ -46,6 +46,7 @@ layout activity_main
 layout activity_sign_up
 layout activity_start
 layout fragement_profile
+layout fragment_add
 layout fragment_home
 menu bottom_menu
 mipmap ic_launcher

@@ -3193,6 +3193,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id Add
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -3386,7 +3387,6 @@ id escape
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fade
 id fill
 id fill_horizontal
@@ -3871,6 +3871,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragement_profile
+layout fragment_add
 layout fragment_home
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
