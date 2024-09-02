@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- rounded_button_user.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="#FFC107" /> <!-- Yellow color -->
+        <corners android:radius="24dp" />
+        <padding android:left="16dp" android:right="16dp" android:top="12dp" android:bottom="12dp"/>
+    </shape>
+
+    <!-- rounded_button_conductor.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="#4CAF50" /> <!-- Green color -->
+        <corners android:radius="24dp" />
+        <padding android:left="16dp" android:right="16dp" android:top="12dp" android:bottom="12dp"/>
+    </shape>
+
+</shape>

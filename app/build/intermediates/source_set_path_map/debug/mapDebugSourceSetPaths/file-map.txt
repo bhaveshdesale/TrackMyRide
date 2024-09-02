@@ -1,0 +1,61 @@
+com.example.trackmyride.app-core-ktx-1.13.0-0 C:\Users\bhave\.gradle\caches\transforms-4\01319679ecd6dce6f41fcd845256c542\transformed\core-ktx-1.13.0\res
+com.example.trackmyride.app-fragment-ktx-1.6.0-1 C:\Users\bhave\.gradle\caches\transforms-4\0322fafe76206ddab6be2cc5ac84865e\transformed\fragment-ktx-1.6.0\res
+com.example.trackmyride.app-savedstate-1.2.1-2 C:\Users\bhave\.gradle\caches\transforms-4\0b965ed0bc036d2a2c6353fc0eab7d1b\transformed\savedstate-1.2.1\res
+com.example.trackmyride.app-lifecycle-livedata-core-2.6.2-3 C:\Users\bhave\.gradle\caches\transforms-4\0c7090d3349942062a23c47971d28739\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.trackmyride.app-lifecycle-viewmodel-2.6.2-4 C:\Users\bhave\.gradle\caches\transforms-4\10ce5459e02aaaed1eec6be6f6160947\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.trackmyride.app-startup-runtime-1.1.1-5 C:\Users\bhave\.gradle\caches\transforms-4\122b3d8e41820ebfb39dfe0849f614d4\transformed\startup-runtime-1.1.1\res
+com.example.trackmyride.app-recyclerview-1.1.0-6 C:\Users\bhave\.gradle\caches\transforms-4\28b57ab2f761dc132e8b13d426cbf644\transformed\recyclerview-1.1.0\res
+com.example.trackmyride.app-activity-ktx-1.9.1-7 C:\Users\bhave\.gradle\caches\transforms-4\2aea4223368653c64917e73bfa95bf92\transformed\activity-ktx-1.9.1\res
+com.example.trackmyride.app-coordinatorlayout-1.1.0-8 C:\Users\bhave\.gradle\caches\transforms-4\2fe3a449fcc6c7967446e608183cd543\transformed\coordinatorlayout-1.1.0\res
+com.example.trackmyride.app-navigation-ui-ktx-2.7.3-9 C:\Users\bhave\.gradle\caches\transforms-4\32a587aad7b3e1b4d986f7112b6fa740\transformed\navigation-ui-ktx-2.7.3\res
+com.example.trackmyride.app-navigation-common-ktx-2.7.3-10 C:\Users\bhave\.gradle\caches\transforms-4\393e9a5f565c0b039879fdb36d95a2cf\transformed\navigation-common-ktx-2.7.3\res
+com.example.trackmyride.app-navigation-runtime-ktx-2.7.3-11 C:\Users\bhave\.gradle\caches\transforms-4\3dae57802a548d18df5dab74d4c8682d\transformed\navigation-runtime-ktx-2.7.3\res
+com.example.trackmyride.app-appcompat-resources-1.7.0-12 C:\Users\bhave\.gradle\caches\transforms-4\4065f3dd53522cfdfe9ad7e56c142b2a\transformed\appcompat-resources-1.7.0\res
+com.example.trackmyride.app-fragment-1.6.0-13 C:\Users\bhave\.gradle\caches\transforms-4\41f9c3ee0d091f3c09fecbb42d1b5b18\transformed\fragment-1.6.0\res
+com.example.trackmyride.app-lifecycle-livedata-core-ktx-2.6.2-14 C:\Users\bhave\.gradle\caches\transforms-4\4668ae67fea86e354c0428047b776c21\transformed\lifecycle-livedata-core-ktx-2.6.2\res
+com.example.trackmyride.app-navigation-fragment-2.7.3-15 C:\Users\bhave\.gradle\caches\transforms-4\47fa1728e8a6743e0a911e75c8e23f7c\transformed\navigation-fragment-2.7.3\res
+com.example.trackmyride.app-profileinstaller-1.3.1-16 C:\Users\bhave\.gradle\caches\transforms-4\4d70d560d69774e891253bb6ee5d037e\transformed\profileinstaller-1.3.1\res
+com.example.trackmyride.app-core-1.13.0-17 C:\Users\bhave\.gradle\caches\transforms-4\50c519eb6f698f9de4c3b16523c5c1f8\transformed\core-1.13.0\res
+com.example.trackmyride.app-transition-1.5.0-18 C:\Users\bhave\.gradle\caches\transforms-4\557dcdbe8cce4b0552f6d4b1bee6c42f\transformed\transition-1.5.0\res
+com.example.trackmyride.app-lifecycle-viewmodel-ktx-2.6.2-19 C:\Users\bhave\.gradle\caches\transforms-4\5e57198dc973df21b377d0c1a2ce79e2\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+com.example.trackmyride.app-core-runtime-2.2.0-20 C:\Users\bhave\.gradle\caches\transforms-4\69efd50b31620edbae77fb2451e45fa9\transformed\core-runtime-2.2.0\res
+com.example.trackmyride.app-sqlite-framework-2.4.0-21 C:\Users\bhave\.gradle\caches\transforms-4\6af9d7fd21e0c7479a5a8ff3973d771f\transformed\sqlite-framework-2.4.0\res
+com.example.trackmyride.app-navigation-common-2.7.3-22 C:\Users\bhave\.gradle\caches\transforms-4\6eac9c227635f156e887e9f882c7c64a\transformed\navigation-common-2.7.3\res
+com.example.trackmyride.app-appcompat-1.7.0-23 C:\Users\bhave\.gradle\caches\transforms-4\76da41960e47e6594c7f36723df44b7f\transformed\appcompat-1.7.0\res
+com.example.trackmyride.app-lifecycle-runtime-ktx-2.6.2-24 C:\Users\bhave\.gradle\caches\transforms-4\7a43632031e5ef35adde10502fe27ae4\transformed\lifecycle-runtime-ktx-2.6.2\res
+com.example.trackmyride.app-firebase-common-21.0.0-25 C:\Users\bhave\.gradle\caches\transforms-4\7c6d063f5ecf7e2488fe45fc7ae71818\transformed\firebase-common-21.0.0\res
+com.example.trackmyride.app-room-ktx-2.6.0-26 C:\Users\bhave\.gradle\caches\transforms-4\7cba3a7b98ae5108d29c5e15747cc0cc\transformed\room-ktx-2.6.0\res
+com.example.trackmyride.app-databinding-adapters-8.5.0-27 C:\Users\bhave\.gradle\caches\transforms-4\7cc4c2f9e4564e56b4e1e82334b52868\transformed\databinding-adapters-8.5.0\res
+com.example.trackmyride.app-navigation-fragment-ktx-2.7.3-28 C:\Users\bhave\.gradle\caches\transforms-4\7d9f59ab92757e03a83ec2e5eaf85200\transformed\navigation-fragment-ktx-2.7.3\res
+com.example.trackmyride.app-lifecycle-process-2.6.2-29 C:\Users\bhave\.gradle\caches\transforms-4\85bb095760ffaa827b53c191bd6be080\transformed\lifecycle-process-2.6.2\res
+com.example.trackmyride.app-material-1.12.0-30 C:\Users\bhave\.gradle\caches\transforms-4\89aef017554eaca01222d089400bc4d2\transformed\material-1.12.0\res
+com.example.trackmyride.app-constraintlayout-2.1.4-31 C:\Users\bhave\.gradle\caches\transforms-4\8d51e2bcd8ca8521cf196cd091ad86a2\transformed\constraintlayout-2.1.4\res
+com.example.trackmyride.app-annotation-experimental-1.4.0-32 C:\Users\bhave\.gradle\caches\transforms-4\8e0177ad4f2352f8ef38de343ef2aa4b\transformed\annotation-experimental-1.4.0\res
+com.example.trackmyride.app-databinding-runtime-8.5.0-33 C:\Users\bhave\.gradle\caches\transforms-4\9828ea8fef940acc0c9fe2989d24eb6b\transformed\databinding-runtime-8.5.0\res
+com.example.trackmyride.app-navigation-runtime-2.7.3-34 C:\Users\bhave\.gradle\caches\transforms-4\9bb79a85ae360d394e4e1ed8b85f13be\transformed\navigation-runtime-2.7.3\res
+com.example.trackmyride.app-navigation-ui-2.7.3-35 C:\Users\bhave\.gradle\caches\transforms-4\a1bb42b000b4ef1ee14e4abbfed930ea\transformed\navigation-ui-2.7.3\res
+com.example.trackmyride.app-play-services-basement-18.3.0-36 C:\Users\bhave\.gradle\caches\transforms-4\a9619d5361ca18e56a94fdc3280674a8\transformed\play-services-basement-18.3.0\res
+com.example.trackmyride.app-viewpager2-1.0.0-37 C:\Users\bhave\.gradle\caches\transforms-4\b367052596176b33fe2bff456dd32a33\transformed\viewpager2-1.0.0\res
+com.example.trackmyride.app-play-services-base-18.1.0-38 C:\Users\bhave\.gradle\caches\transforms-4\d30e5b4cb85a78a462adbb378b7b0efd\transformed\play-services-base-18.1.0\res
+com.example.trackmyride.app-savedstate-ktx-1.2.1-39 C:\Users\bhave\.gradle\caches\transforms-4\d3dcbc1510b5cae64bd7197adf44c34c\transformed\savedstate-ktx-1.2.1\res
+com.example.trackmyride.app-lifecycle-viewmodel-savedstate-2.6.2-40 C:\Users\bhave\.gradle\caches\transforms-4\d555f9f6673d5694fc9d41b21ff8d2ca\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.trackmyride.app-window-1.0.0-41 C:\Users\bhave\.gradle\caches\transforms-4\d5addc2d727ec2bd1627f18b6649cc19\transformed\window-1.0.0\res
+com.example.trackmyride.app-emoji2-views-helper-1.3.0-42 C:\Users\bhave\.gradle\caches\transforms-4\d68e9342b7be60c08f497e3f6b957d30\transformed\emoji2-views-helper-1.3.0\res
+com.example.trackmyride.app-drawerlayout-1.1.1-43 C:\Users\bhave\.gradle\caches\transforms-4\d934a3a56f5a89976a29a588ec84b53d\transformed\drawerlayout-1.1.1\res
+com.example.trackmyride.app-room-runtime-2.6.0-44 C:\Users\bhave\.gradle\caches\transforms-4\e1525b9cd086d1551e5cbc469e81dd61\transformed\room-runtime-2.6.0\res
+com.example.trackmyride.app-activity-1.9.1-45 C:\Users\bhave\.gradle\caches\transforms-4\e19d098a79ad669504f89d7a7b460cb5\transformed\activity-1.9.1\res
+com.example.trackmyride.app-lifecycle-runtime-2.6.2-46 C:\Users\bhave\.gradle\caches\transforms-4\e78540ff8f4552b580dae0fc9967183f\transformed\lifecycle-runtime-2.6.2\res
+com.example.trackmyride.app-lifecycle-livedata-ktx-2.6.2-47 C:\Users\bhave\.gradle\caches\transforms-4\e8eb1085eae3845f3368211e63ea05e5\transformed\lifecycle-livedata-ktx-2.6.2\res
+com.example.trackmyride.app-emoji2-1.3.0-48 C:\Users\bhave\.gradle\caches\transforms-4\f68285acec890aa743ec180566d675da\transformed\emoji2-1.3.0\res
+com.example.trackmyride.app-slidingpanelayout-1.2.0-49 C:\Users\bhave\.gradle\caches\transforms-4\f7fdbad46085e037962d7efc17ccfe43\transformed\slidingpanelayout-1.2.0\res
+com.example.trackmyride.app-sqlite-2.4.0-50 C:\Users\bhave\.gradle\caches\transforms-4\fc5c40e771cdc75204a90094998e59a5\transformed\sqlite-2.4.0\res
+com.example.trackmyride.app-lifecycle-livedata-2.6.2-51 C:\Users\bhave\.gradle\caches\transforms-4\fcebbb0e1c609e465f5596b07876933a\transformed\lifecycle-livedata-2.6.2\res
+com.example.trackmyride.app-cardview-1.0.0-52 C:\Users\bhave\.gradle\caches\transforms-4\fe01b8788750a67d98e79ed79fd33fc2\transformed\cardview-1.0.0\res
+com.example.trackmyride.app-pngs-53 C:\Users\bhave\Downloads\TrackMyRide-master (2)\TrackMyRide-master\app\build\generated\res\pngs\debug
+com.example.trackmyride.app-res-54 C:\Users\bhave\Downloads\TrackMyRide-master (2)\TrackMyRide-master\app\build\generated\res\processDebugGoogleServices
+com.example.trackmyride.app-resValues-55 C:\Users\bhave\Downloads\TrackMyRide-master (2)\TrackMyRide-master\app\build\generated\res\resValues\debug
+com.example.trackmyride.app-packageDebugResources-56 C:\Users\bhave\Downloads\TrackMyRide-master (2)\TrackMyRide-master\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.trackmyride.app-packageDebugResources-57 C:\Users\bhave\Downloads\TrackMyRide-master (2)\TrackMyRide-master\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.trackmyride.app-debug-58 C:\Users\bhave\Downloads\TrackMyRide-master (2)\TrackMyRide-master\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.trackmyride.app-debug-59 C:\Users\bhave\Downloads\TrackMyRide-master (2)\TrackMyRide-master\app\src\debug\res
+com.example.trackmyride.app-main-60 C:\Users\bhave\Downloads\TrackMyRide-master (2)\TrackMyRide-master\app\src\main\res
