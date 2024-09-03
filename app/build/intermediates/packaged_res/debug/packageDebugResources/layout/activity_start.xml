@@ -13,13 +13,13 @@
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#0A155B"
         android:scaleType="centerCrop"
-        android:src="@drawable/background_gradient"
-      android:background="#0A155B"
-        app:layout_constraintTop_toTopOf="parent"
+      android:src="@drawable/background_gradient"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <!-- App Logo -->
     <ImageView
@@ -28,50 +28,50 @@
         android:layout_height="100dp"
         android:layout_marginTop="48dp"
         android:src="@drawable/ic_launcher_foreground"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <!-- Title Text -->
     <TextView
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Track My Bus"
+        android:textColor="@color/Lavender"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:textColor="@color/Lavender"
-        app:layout_constraintTop_toBottomOf="@id/appLogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="16dp"/>
+        app:layout_constraintTop_toBottomOf="@id/appLogo"/>
 
     <!-- Subtitle Text -->
     <TextView
         android:id="@+id/subtitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Choose Your Role"
-        android:textSize="18sp"
         android:textColor="#DDDDDD"
-        app:layout_constraintTop_toBottomOf="@id/titleText"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="8dp"/>
+        app:layout_constraintTop_toBottomOf="@id/titleText"/>
 
     <!-- User Button -->
     <Button
         android:id="@+id/userButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="User"
-        android:textSize="18sp"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/rounded_button_conductor"
         android:layout_marginTop="48dp"
-        app:layout_constraintTop_toBottomOf="@id/subtitleText"
-        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/rounded_button_conductor"
+        android:text="User"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtitleText"
         app:layout_constraintWidth_percent="0.8" />
 
     <!-- Conductor Button -->
@@ -79,14 +79,14 @@
         android:id="@+id/conductorButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Conductor"
-        android:textSize="18sp"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/rounded_button_conductor"
         android:layout_marginTop="24dp"
-        app:layout_constraintTop_toBottomOf="@id/userButton"
-        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/rounded_button_conductor"
+        android:text="Conductor"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userButton"
         app:layout_constraintWidth_percent="0.8" />
 
     <!-- Decorative Element -->
@@ -94,10 +94,10 @@
         android:id="@+id/decorativeElement"
         android:layout_width="80dp"
         android:layout_height="5dp"
+        android:layout_marginTop="32dp"
         android:background="#7B1B1B"
-        app:layout_constraintTop_toBottomOf="@id/conductorButton"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/conductorButton"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

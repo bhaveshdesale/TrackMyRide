@@ -57,6 +57,7 @@ id titleText
 id userButton
 layout activity_costomer_registerd
 layout activity_customer_login
+layout activity_demo
 layout activity_hoem_map
 layout activity_home
 layout activity_login

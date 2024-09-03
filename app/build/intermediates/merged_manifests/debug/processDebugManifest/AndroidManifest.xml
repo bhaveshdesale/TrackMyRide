@@ -44,6 +44,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrackMyRide" >
         <activity
+            android:name="com.example.trackmyride.ui.DemoActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.trackmyride.ui.Condoctor.CostomerRegisterdActivity"
             android:exported="false" />
         <activity
