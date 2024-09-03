@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "554205463582",
+    "project_id": "demotodo-5ddc5",
+    "storage_bucket": "demotodo-5ddc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554205463582:android:ec54141ed6f5d0a9ca1a0f",
+        "android_client_info": {
+          "package_name": "com.example.demotodo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLJ35UCHmfdHTojjszPzHnAbuScecJq-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554205463582:android:84dbcbcf3a7bb9f3ca1a0f",
+        "android_client_info": {
+          "package_name": "com.example.trackmyride"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLJ35UCHmfdHTojjszPzHnAbuScecJq-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

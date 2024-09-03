@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/fragment_add.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/fragment_add.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/activity_start.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/activity_login.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/activity_hoem_map.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/activity_hoem_map.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/activity_sign_up.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/activity_home.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/fragment_home.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/activity_customer_login.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/activity_customer_login.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/activity_main.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/activity_costomer_registerd.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/activity_costomer_registerd.xml"
+    },
+    {
+        "merged": "com.example.trackmyride.app-mergeDebugResources-58:/layout/fragement_profile.xml",
+        "source": "com.example.trackmyride.app-main-61:/layout/fragement_profile.xml"
+    }
+]

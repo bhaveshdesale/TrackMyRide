@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Lavender">#8692f7</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name" translatable="false">TrackMyRide</string>
+    <string name="gcm_defaultSenderId" translatable="false">554205463582</string>
+    <string name="google_api_key" translatable="false">AIzaSyBLJ35UCHmfdHTojjszPzHnAbuScecJq-E</string>
+    <string name="google_app_id" translatable="false">1:554205463582:android:84dbcbcf3a7bb9f3ca1a0f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBLJ35UCHmfdHTojjszPzHnAbuScecJq-E</string>
+    <string name="google_storage_bucket" translatable="false">demotodo-5ddc5.appspot.com</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="project_id" translatable="false">demotodo-5ddc5</string>
+    <string name="title_activity_hoem_map" translatable="false">HoemMapActivity</string>
+    <string name="title_activity_home_map" translatable="false">HomeMap</string>
+    <style name="Base.Theme.TrackMyRide" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimary">@color/Lavender</item>
+        <item name="colorPrimaryVariant">@color/Lavender</item>
+    </style>
+    <style name="Theme.TrackMyRide" parent="Base.Theme.TrackMyRide"/>
+</resources>
