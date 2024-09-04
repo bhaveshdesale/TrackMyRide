@@ -26,11 +26,15 @@ id bottomAppBar
 id bottomNavigationView
 id busETA
 id busNo
+id button1
 id conductorButton
 id decorativeElement
 id firstStop
 id frame_layout
+id heading
 id home
+id input1
+id input2
 id lastStop
 id location
 id loginRedirectText

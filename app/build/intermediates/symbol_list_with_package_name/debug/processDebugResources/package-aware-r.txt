@@ -3343,6 +3343,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id busETA
 id busNo
+id button1
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3461,6 +3462,7 @@ id group_divider
 id grouping
 id groups
 id header_title
+id heading
 id hide_ime_id
 id hideable
 id home
@@ -3479,6 +3481,8 @@ id immediateStop
 id included
 id indeterminate
 id info
+id input1
+id input2
 id invisible
 id inward
 id italic

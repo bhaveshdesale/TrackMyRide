@@ -5,19 +5,42 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.trackmyride.R;
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentAddBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentAddBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final MaterialButton button1;
+
+  @NonNull
+  public final TextView heading;
+
+  @NonNull
+  public final TextInputEditText input1;
+
+  @NonNull
+  public final TextInputEditText input2;
+
+  private FragmentAddBinding(@NonNull FrameLayout rootView, @NonNull MaterialButton button1,
+      @NonNull TextView heading, @NonNull TextInputEditText input1,
+      @NonNull TextInputEditText input2) {
     this.rootView = rootView;
+    this.button1 = button1;
+    this.heading = heading;
+    this.input1 = input1;
+    this.input2 = input2;
   }
 
   @Override
@@ -43,10 +66,37 @@ public final class FragmentAddBinding implements ViewBinding {
 
   @NonNull
   public static FragmentAddBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.button1;
+      MaterialButton button1 = ViewBindings.findChildViewById(rootView, id);
+      if (button1 == null) {
+        break missingId;
+      }
 
-    return new FragmentAddBinding((FrameLayout) rootView);
+      id = R.id.heading;
+      TextView heading = ViewBindings.findChildViewById(rootView, id);
+      if (heading == null) {
+        break missingId;
+      }
+
+      id = R.id.input1;
+      TextInputEditText input1 = ViewBindings.findChildViewById(rootView, id);
+      if (input1 == null) {
+        break missingId;
+      }
+
+      id = R.id.input2;
+      TextInputEditText input2 = ViewBindings.findChildViewById(rootView, id);
+      if (input2 == null) {
+        break missingId;
+      }
+
+      return new FragmentAddBinding((FrameLayout) rootView, button1, heading, input1, input2);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
