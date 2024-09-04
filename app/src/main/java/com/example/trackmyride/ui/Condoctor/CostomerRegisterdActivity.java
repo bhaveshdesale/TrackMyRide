@@ -15,9 +15,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.trackmyride.R;
-import com.example.trackmyride.ui.Helper2;
-import com.example.trackmyride.ui.HelperClass;
-import com.example.trackmyride.ui.LoginActivity;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 

@@ -65,6 +65,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
+        app:circularflow_defaultRadius="30sp"
         android:background="@drawable/rounded_button_conductor"
         android:text="User"
         android:textColor="#FFFFFF"

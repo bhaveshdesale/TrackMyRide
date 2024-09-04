@@ -17,8 +17,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.trackmyride.MainActivity;
 import com.example.trackmyride.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -31,6 +32,7 @@ public class CustomerLoginActivity extends AppCompatActivity {
     private EditText loginUsername, loginPassword, loginID;
     private Button loginButton;
     private TextView signupRedirectText;
+    private FirebaseAuth firebaseAuth;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -38,6 +40,9 @@ public class CustomerLoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_customer_login);
+
+        // Initialize Firebase Auth
+        firebaseAuth = FirebaseAuth.getInstance();
 
         // Initialize views
         loginUsername = findViewById(R.id.login_username_customer);
@@ -55,8 +60,9 @@ public class CustomerLoginActivity extends AppCompatActivity {
 
         // Set onClick listeners
         loginButton.setOnClickListener(view -> {
-            if (!validateUsername() | !validatePassword() | !validateID()) {
+            if (!validateUsername() || !validatePassword() || !validateID()) {
                 // Validation failed
+                return;
             } else {
                 checkUser();
             }
@@ -107,6 +113,7 @@ public class CustomerLoginActivity extends AppCompatActivity {
         String userPassword = loginPassword.getText().toString().trim();
         String userID = loginID.getText().toString().trim();
 
+        // Reference to the database
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Conductor");
         Query checkUserDatabase = reference.orderByChild("username").equalTo(userUsername);
 
@@ -114,37 +121,46 @@ public class CustomerLoginActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if (snapshot.exists()) {
-                    loginUsername.setError(null);
+                    // Fetching the email associated with the username
+                    for (DataSnapshot userSnapshot : snapshot.getChildren()) {
+                        String emailFromDB = userSnapshot.child("email").getValue(String.class);
+                        String passwordFromDB = userSnapshot.child("password").getValue(String.class);
+                        String idFromDB = userSnapshot.child("id").getValue(String.class);
 
-                    // Fetching data from the database
-                    String passwordFromDB = snapshot.child(userUsername).child("password").getValue(String.class);
-                    String idFromDB = snapshot.child(userUsername).child("id").getValue(String.class);
+                        if (emailFromDB != null && passwordFromDB != null && idFromDB != null) {
+                            // Now use the retrieved email for Firebase Authentication
+                            firebaseAuth.signInWithEmailAndPassword(emailFromDB, userPassword)
+                                    .addOnCompleteListener(CustomerLoginActivity.this, task -> {
+                                        if (task.isSuccessful()) {
+                                            FirebaseUser user = firebaseAuth.getCurrentUser();
+                                            if (user != null) {
+                                                // Authentication successful, now proceed with the rest of the logic
+                                                if (passwordFromDB.equals(userPassword) && idFromDB.equals(userID)) {
+                                                    String nameFromDB = userSnapshot.child("name").getValue(String.class);
+                                                    String usernameFromDB = userSnapshot.child("username").getValue(String.class);
 
-                    // Debugging - Check retrieved values
-                    Log.d("CustomerLoginActivity", "Password from DB: " + passwordFromDB);
-                    Log.d("CustomerLoginActivity", "ID from DB: " + idFromDB);
-
-                    if (passwordFromDB != null && idFromDB != null) {
-                        if (passwordFromDB.equals(userPassword) && idFromDB.equals(userID)) {
-                            String nameFromDB = snapshot.child(userUsername).child("name").getValue(String.class);
-                            String emailFromDB = snapshot.child(userUsername).child("email").getValue(String.class);
-                            String usernameFromDB = snapshot.child(userUsername).child("username").getValue(String.class);
-
-                            Intent intent = new Intent(CustomerLoginActivity.this, MainActivity.class);
-                            intent.putExtra("name", nameFromDB);
-                            intent.putExtra("email", emailFromDB);
-                            intent.putExtra("username", usernameFromDB);
-                            intent.putExtra("password", passwordFromDB);
-                            intent.putExtra("id", idFromDB);
-                            startActivity(intent);
-                            finish();
+                                                    Intent intent = new Intent(CustomerLoginActivity.this, LocationActivity.class);
+                                                    intent.putExtra("name", nameFromDB);
+                                                    intent.putExtra("email", emailFromDB);
+                                                    intent.putExtra("username", usernameFromDB);
+                                                    intent.putExtra("password", passwordFromDB);
+                                                    intent.putExtra("id", idFromDB);
+                                                    startActivity(intent);
+                                                    finish();
+                                                } else {
+                                                    loginPassword.setError("Invalid Credentials");
+                                                    loginPassword.requestFocus();
+                                                }
+                                            }
+                                        } else {
+                                            Log.e("CustomerLoginActivity", "Authentication Failed: " + task.getException().getMessage());
+                                            Toast.makeText(CustomerLoginActivity.this, "Authentication Failed: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                        }
+                                    });
                         } else {
-                            loginPassword.setError("Invalid Credentials");
-                            loginPassword.requestFocus();
+                            loginUsername.setError("Credentials not found");
+                            loginUsername.requestFocus();
                         }
-                    } else {
-                        loginPassword.setError("Invalid Credentials");
-                        loginPassword.requestFocus();
                     }
                 } else {
                     loginUsername.setError("User does not exist");

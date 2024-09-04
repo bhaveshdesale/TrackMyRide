@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.trackmyride.app-mergeDebugResources-57:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.example.trackmyride.app-mergeDebugResources-61:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bhave\\.gradle\\caches\\transforms-4\\d33e43e7327795ee133d942e6bc32fae\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\bhave\\.gradle\\caches\\transforms-4\\0800d13b5127c4334cf0764291745dd3\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
