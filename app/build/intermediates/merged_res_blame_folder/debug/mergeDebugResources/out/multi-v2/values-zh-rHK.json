@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.trackmyride.app-mergeDebugResources-61:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.trackmyride.app-mergeDebugResources-62:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\bhave\\.gradle\\caches\\transforms-4\\bb135d1bf17d2dfc1969c41d36a3e810\\transformed\\core-1.13.0\\res\\values-zh-rHK\\values-zh-rHK.xml",

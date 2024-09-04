@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:2:1-85:12
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:2:1-94:12
 MERGED from [androidx.databinding:databinding-adapters:8.5.0] C:\Users\bhave\.gradle\caches\transforms-4\2f4b2d76532ff858e883441b17910b35\transformed\databinding-adapters-8.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.5.0] C:\Users\bhave\.gradle\caches\transforms-4\0e12fee9dd2651ce419eae87fc2f45b8\transformed\databinding-runtime-8.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:8.5.0] C:\Users\bhave\.gradle\caches\transforms-4\ddc5419ac3a17e99dea92aea0e671708\transformed\viewbinding-8.5.0\AndroidManifest.xml:2:1-7:12
@@ -22,6 +22,7 @@ MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\bhave\.gradl
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\bhave\.gradle\caches\transforms-4\44aace515178acdb5fa76815b0be5a7d\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\bhave\.gradle\caches\transforms-4\65e477208a321fa8e580e57a152bf453\transformed\play-services-maps-19.0.0\AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\bhave\.gradle\caches\transforms-4\16c96607f391ca978e113836a7f850e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:17:1-75:12
+MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\Users\bhave\.gradle\caches\transforms-4\edd8c3cfb2ef3db2241b1f42cfb16677\transformed\glide-4.14.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\bhave\.gradle\caches\transforms-4\dd473b2bfdd5eee354b8f32dc4a818c3\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\bhave\.gradle\caches\transforms-4\add61e8f26ab3855184d2b100d8ff2a1\transformed\firebase-database-21.0.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\bhave\.gradle\caches\transforms-4\0b0fa8da3d3f1a7afb0b9c270594f5e0\transformed\firebase-storage-21.0.0\AndroidManifest.xml:15:1-39:12
@@ -91,6 +92,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\bhave\.gradle\caches\transforms-4\6ab36c15078d2e0aca4965572f09d4d3\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\bhave\.gradle\caches\transforms-4\79b3ea8bb991f798c2386f7af05efc3a\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\bhave\.gradle\caches\transforms-4\d7a1f9ae4a82face69ffe179839530d2\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\bhave\.gradle\caches\transforms-4\394ed11176034665a33c0d6da04145fe\transformed\gifdecoder-4.14.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\bhave\.gradle\caches\transforms-4\84563d35941d37938559db0fe2466f6c\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bhave\.gradle\caches\transforms-4\da6b17081fe77642b84f3e280f49b6d1\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bhave\.gradle\caches\transforms-4\636773a82b004765f61a3fb32f2fb991\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\bhave\.gradle\caches\transforms-4\34c8d6e263f22da2b7ff3c02253fea8d\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -133,9 +136,13 @@ uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
 		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:8:22-77
 application
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:9:5-83:19
-INJECTED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:9:5-83:19
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:10:5-92:19
+INJECTED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:10:5-92:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\bhave\.gradle\caches\transforms-4\45c24e8c5d248e9f8847d0355e88941c\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\bhave\.gradle\caches\transforms-4\45c24e8c5d248e9f8847d0355e88941c\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\bhave\.gradle\caches\transforms-4\2a181f252ebcb1e963e51f43f1fdec09\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -144,6 +151,8 @@ MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\bhave\.g
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\bhave\.gradle\caches\transforms-4\65e477208a321fa8e580e57a152bf453\transformed\play-services-maps-19.0.0\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\bhave\.gradle\caches\transforms-4\16c96607f391ca978e113836a7f850e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\bhave\.gradle\caches\transforms-4\16c96607f391ca978e113836a7f850e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\Users\bhave\.gradle\caches\transforms-4\edd8c3cfb2ef3db2241b1f42cfb16677\transformed\glide-4.14.2\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\Users\bhave\.gradle\caches\transforms-4\edd8c3cfb2ef3db2241b1f42cfb16677\transformed\glide-4.14.2\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\bhave\.gradle\caches\transforms-4\add61e8f26ab3855184d2b100d8ff2a1\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\bhave\.gradle\caches\transforms-4\add61e8f26ab3855184d2b100d8ff2a1\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
 MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\bhave\.gradle\caches\transforms-4\0b0fa8da3d3f1a7afb0b9c270594f5e0\transformed\firebase-storage-21.0.0\AndroidManifest.xml:26:5-37:19
@@ -190,6 +199,8 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bhave\.g
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\bhave\.gradle\caches\transforms-4\dd0a2ee17a3590acc39c340a31563e76\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\bhave\.gradle\caches\transforms-4\7cde8e1e75184451b0805783c69803aa\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\bhave\.gradle\caches\transforms-4\7cde8e1e75184451b0805783c69803aa\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\bhave\.gradle\caches\transforms-4\394ed11176034665a33c0d6da04145fe\transformed\gifdecoder-4.14.2\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\bhave\.gradle\caches\transforms-4\394ed11176034665a33c0d6da04145fe\transformed\gifdecoder-4.14.2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bhave\.gradle\caches\transforms-4\636773a82b004765f61a3fb32f2fb991\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bhave\.gradle\caches\transforms-4\636773a82b004765f61a3fb32f2fb991\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
@@ -197,101 +208,107 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bh
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\bhave\.gradle\caches\transforms-4\bb135d1bf17d2dfc1969c41d36a3e810\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:15:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:13:9-54
 	android:roundIcon
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:16:9-54
 	tools:targetApi
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:18:9-29
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:19:9-29
 	android:icon
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:17:9-49
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:18:9-49
 	android:dataExtractionRules
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:11:9-65
-activity#com.example.trackmyride.ui.Condoctor.LocationActivity
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:19:9-21:40
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:12:9-65
+activity#com.example.trackmyride.ui.Condoctor.SplashScreenActivity
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:20:9-31:20
 	android:exported
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:20:13-58
-activity#com.example.trackmyride.ui.DemoActivity
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:22:9-24:40
-	android:exported
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:24:13-37
-	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:23:13-44
-activity#com.example.trackmyride.ui.Condoctor.CostomerRegisterdActivity
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:25:9-27:40
-	android:exported
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:26:13-67
-activity#com.example.trackmyride.ui.Condoctor.CustomerLoginActivity
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:28:9-30:40
-	android:exported
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:29:13-63
-meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:42:9-44:71
-	android:value
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:44:13-68
-	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:43:13-58
-activity#com.example.trackmyride.ui.HomeMapActivity
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:46:9-49:63
-	android:label
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:49:13-60
-	android:exported
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:48:13-37
-	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:47:13-47
-activity#com.example.trackmyride.ui.StartActivity
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:50:9-58:20
-	android:exported
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:52:13-36
-	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:51:13-45
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:21:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:53:13-57:29
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:54:17-69
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:54:25-66
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:56:17-77
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:56:27-74
-activity#com.example.trackmyride.ui.HomeActivity
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:59:9-61:40
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.example.trackmyride.ui.Condoctor.LocationActivity
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:33:13-58
+activity#com.example.trackmyride.ui.DemoActivity
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:36:13-44
+activity#com.example.trackmyride.ui.Condoctor.CostomerRegisterdActivity
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:38:9-40:40
+	android:exported
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:39:13-67
+activity#com.example.trackmyride.ui.Condoctor.CustomerLoginActivity
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:41:9-43:40
+	android:exported
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:42:13-63
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:55:9-57:71
+	android:value
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:57:13-68
+	android:name
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:56:13-58
+activity#com.example.trackmyride.ui.HomeMapActivity
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:59:9-62:63
+	android:label
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:62:13-60
 	android:exported
 		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:60:13-44
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:60:13-47
+activity#com.example.trackmyride.ui.StartActivity
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:63:9-67:20
+	android:exported
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:64:13-45
+activity#com.example.trackmyride.ui.HomeActivity
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:68:9-70:40
+	android:exported
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:70:13-37
+	android:name
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:69:13-44
 activity#com.example.trackmyride.ui.SignUpActivity
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:62:9-70:20
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:71:9-79:20
 	android:exported
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:64:13-36
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:73:13-36
 	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:63:13-46
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:72:13-46
 activity#com.example.trackmyride.ui.LoginActivity
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:71:9-73:40
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:80:9-82:40
 	android:exported
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:73:13-37
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:82:13-37
 	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:72:13-45
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:81:13-45
 activity#com.example.trackmyride.MainActivity
-ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:74:9-82:20
+ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:83:9-91:20
 	android:exported
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:76:13-36
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:85:13-36
 	android:name
-		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:75:13-41
+		ADDED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml:84:13-41
 uses-sdk
 INJECTED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\bhave\Downloads\TrackMyRide-master4 (1)\TrackMyRide-master4\app\src\main\AndroidManifest.xml
@@ -332,6 +349,8 @@ MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\bhave\.g
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\bhave\.gradle\caches\transforms-4\65e477208a321fa8e580e57a152bf453\transformed\play-services-maps-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\bhave\.gradle\caches\transforms-4\16c96607f391ca978e113836a7f850e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:21:5-23:151
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\bhave\.gradle\caches\transforms-4\16c96607f391ca978e113836a7f850e6\transformed\firebase-auth-23.0.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\Users\bhave\.gradle\caches\transforms-4\edd8c3cfb2ef3db2241b1f42cfb16677\transformed\glide-4.14.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\Users\bhave\.gradle\caches\transforms-4\edd8c3cfb2ef3db2241b1f42cfb16677\transformed\glide-4.14.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\bhave\.gradle\caches\transforms-4\dd473b2bfdd5eee354b8f32dc4a818c3\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\bhave\.gradle\caches\transforms-4\dd473b2bfdd5eee354b8f32dc4a818c3\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\bhave\.gradle\caches\transforms-4\add61e8f26ab3855184d2b100d8ff2a1\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
@@ -470,6 +489,10 @@ MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\bhave\.gradle\cach
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\bhave\.gradle\caches\transforms-4\79b3ea8bb991f798c2386f7af05efc3a\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\bhave\.gradle\caches\transforms-4\d7a1f9ae4a82face69ffe179839530d2\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\bhave\.gradle\caches\transforms-4\d7a1f9ae4a82face69ffe179839530d2\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\bhave\.gradle\caches\transforms-4\394ed11176034665a33c0d6da04145fe\transformed\gifdecoder-4.14.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] C:\Users\bhave\.gradle\caches\transforms-4\394ed11176034665a33c0d6da04145fe\transformed\gifdecoder-4.14.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\bhave\.gradle\caches\transforms-4\84563d35941d37938559db0fe2466f6c\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\bhave\.gradle\caches\transforms-4\84563d35941d37938559db0fe2466f6c\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bhave\.gradle\caches\transforms-4\da6b17081fe77642b84f3e280f49b6d1\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bhave\.gradle\caches\transforms-4\da6b17081fe77642b84f3e280f49b6d1\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\bhave\.gradle\caches\transforms-4\636773a82b004765f61a3fb32f2fb991\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41

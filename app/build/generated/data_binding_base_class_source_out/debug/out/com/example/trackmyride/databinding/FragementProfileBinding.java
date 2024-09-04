@@ -5,19 +5,42 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.trackmyride.R;
+import com.google.android.material.button.MaterialButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragementProfileBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragementProfileBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final MaterialButton changePasswordButton;
+
+  @NonNull
+  public final MaterialButton logoutButton;
+
+  @NonNull
+  public final ImageView profileImage;
+
+  @NonNull
+  public final TextView username;
+
+  private FragementProfileBinding(@NonNull FrameLayout rootView,
+      @NonNull MaterialButton changePasswordButton, @NonNull MaterialButton logoutButton,
+      @NonNull ImageView profileImage, @NonNull TextView username) {
     this.rootView = rootView;
+    this.changePasswordButton = changePasswordButton;
+    this.logoutButton = logoutButton;
+    this.profileImage = profileImage;
+    this.username = username;
   }
 
   @Override
@@ -43,10 +66,38 @@ public final class FragementProfileBinding implements ViewBinding {
 
   @NonNull
   public static FragementProfileBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.change_password_button;
+      MaterialButton changePasswordButton = ViewBindings.findChildViewById(rootView, id);
+      if (changePasswordButton == null) {
+        break missingId;
+      }
 
-    return new FragementProfileBinding((FrameLayout) rootView);
+      id = R.id.logout_button;
+      MaterialButton logoutButton = ViewBindings.findChildViewById(rootView, id);
+      if (logoutButton == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_image;
+      ImageView profileImage = ViewBindings.findChildViewById(rootView, id);
+      if (profileImage == null) {
+        break missingId;
+      }
+
+      id = R.id.username;
+      TextView username = ViewBindings.findChildViewById(rootView, id);
+      if (username == null) {
+        break missingId;
+      }
+
+      return new FragementProfileBinding((FrameLayout) rootView, changePasswordButton, logoutButton,
+          profileImage, username);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

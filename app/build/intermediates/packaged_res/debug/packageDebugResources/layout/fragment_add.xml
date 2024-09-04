@@ -4,16 +4,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.AddFragment"
+    android:background="@color/white"
     android:padding="16dp"
-    android:background="@color/white">
+    tools:context=".ui.AddFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:backgroundTint="@color/Lavender"
         android:gravity="center"
+        android:orientation="vertical"
         android:padding="16dp">
 
         <!-- Heading TextView -->
@@ -21,10 +21,10 @@
             android:id="@+id/heading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
             android:text="Enter the Route"
             android:textAppearance="?attr/textAppearanceHeadline6"
             android:textColor="@color/Lavender"
-            android:layout_marginBottom="24dp"
             android:textStyle="bold" />
 
         <!-- CardView for Input Fields -->
@@ -32,9 +32,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
-            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/Lavender"
             app:cardCornerRadius="12dp"
-            app:cardBackgroundColor="@color/Lavender">
+            app:cardElevation="8dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -48,15 +48,15 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Starting City"
                     app:boxBackgroundMode="filled"
-                    app:boxCornerRadiusTopStart="8dp"
-                    app:boxCornerRadiusTopEnd="8dp"
-                    app:boxCornerRadiusBottomStart="8dp"
                     app:boxCornerRadiusBottomEnd="8dp"
+                    app:boxCornerRadiusBottomStart="8dp"
+                    app:boxCornerRadiusTopEnd="8dp"
+                    app:boxCornerRadiusTopStart="8dp"
                     app:boxStrokeColor="@color/black">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:layout_width="match_parent"
                         android:id="@+id/input1"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="10dp"
                         android:textColor="@color/black" />
@@ -69,16 +69,16 @@
                     android:layout_marginTop="16dp"
                     android:hint="Enter Last City"
                     app:boxBackgroundMode="filled"
-                    app:boxCornerRadiusTopStart="8dp"
-                    app:boxCornerRadiusTopEnd="8dp"
-                    app:boxCornerRadiusBottomStart="8dp"
                     app:boxCornerRadiusBottomEnd="8dp"
+                    app:boxCornerRadiusBottomStart="8dp"
+                    app:boxCornerRadiusTopEnd="8dp"
+                    app:boxCornerRadiusTopStart="8dp"
                     app:boxStrokeColor="@color/black">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/input2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/input2"
                         android:padding="10dp"
                         android:textColor="@color/black" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -87,17 +87,17 @@
 
         <!-- Show Route Button -->
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Show Route"
-            android:id="@+id/button1"
-            android:textColor="@color/white"
-            android:textAllCaps="false"
             android:backgroundTint="@color/Lavender"
-            app:cornerRadius="12dp"
             android:elevation="4dp"
             android:padding="12dp"
+            android:text="Show Route"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:cornerRadius="12dp"
             app:iconGravity="textStart" />
 
     </LinearLayout>

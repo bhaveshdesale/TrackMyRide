@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.trackmyride.app-mergeDebugResources-61:/values-or/values-or.xml",
+            "outputFile": "com.example.trackmyride.app-mergeDebugResources-62:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "C:\\Users\\bhave\\.gradle\\caches\\transforms-4\\5df8ddc47e2f53dff6c7483d55c40950\\transformed\\navigation-ui-2.7.3\\res\\values-or\\values-or.xml",

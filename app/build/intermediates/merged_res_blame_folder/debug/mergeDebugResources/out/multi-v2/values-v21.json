@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.trackmyride.app-mergeDebugResources-61:/values-v21/values-v21.xml",
+            "outputFile": "com.example.trackmyride.app-mergeDebugResources-62:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\bhave\\.gradle\\caches\\transforms-4\\e45f94f6ed20d03f7454f4686fd3e699\\transformed\\credentials-play-services-auth-1.2.0-rc01\\res\\values-v21\\values-v21.xml",

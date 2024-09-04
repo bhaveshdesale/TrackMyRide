@@ -91,5 +91,8 @@ dependencies {
 
 //map activity
     implementation("com.google.android.gms:play-services-maps:19.0.0")
+    //Glide
+    implementation ("com.github.bumptech.glide:glide:4.14.2")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.14.2")
 
 }

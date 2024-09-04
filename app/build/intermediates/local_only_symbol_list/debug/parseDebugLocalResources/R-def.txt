@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+anim splash_animation
 color Lavender
 color black
 color white
@@ -20,6 +21,7 @@ drawable ic_launcher_foreground
 drawable lavender_border
 drawable rounded_button_conductor
 id Add
+id app
 id appLogo
 id background
 id bottomAppBar
@@ -27,7 +29,9 @@ id bottomNavigationView
 id busETA
 id busNo
 id button1
+id change_password_button
 id conductorButton
+id conductorCardView
 id decorativeElement
 id firstStop
 id frame_layout
@@ -45,9 +49,11 @@ id login_password
 id login_password_customer
 id login_username
 id login_username_customer
+id logout_button
 id main
 id map
 id profile
+id profile_image
 id selectPhoto
 id signupRedirectText
 id signupRedirectText_customer
@@ -62,11 +68,14 @@ id signup_password
 id signup_password_customer
 id signup_username
 id signup_username_customer
+id splash_logo
 id subtitleText
 id switch_status
 id titleText
 id uploadLocation
 id userButton
+id userCardView
+id username
 layout activity_costomer_registerd
 layout activity_customer_login
 layout activity_demo
@@ -76,6 +85,7 @@ layout activity_location
 layout activity_login
 layout activity_main
 layout activity_sign_up
+layout activity_splash_screen
 layout activity_start
 layout fragement_profile
 layout fragment_add

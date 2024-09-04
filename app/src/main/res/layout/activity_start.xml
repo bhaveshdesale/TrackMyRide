@@ -5,21 +5,32 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAFAFA"
+    android:background="#3348CC"
     tools:context=".ui.StartActivity">
 
     <!-- Background Gradient -->
-    <ImageView
-        android:id="@+id/background"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#0A155B"
-        android:scaleType="centerCrop"
-      android:src="@drawable/background_gradient"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#0A155B"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_gradient"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.cardview.widget.CardView>
 
     <!-- App Logo -->
     <ImageView
@@ -27,7 +38,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="48dp"
-        android:src="@drawable/ic_launcher_foreground"
+        android:src="@drawable/applogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -60,35 +71,56 @@
         app:layout_constraintTop_toBottomOf="@id/titleText"/>
 
     <!-- User Button -->
-    <Button
-        android:id="@+id/userButton"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/userCardView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        app:circularflow_defaultRadius="30sp"
-        android:background="@drawable/rounded_button_conductor"
-        android:text="User"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        app:cardBackgroundColor="@color/Lavender"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/subtitleText"
-        app:layout_constraintWidth_percent="0.8" />
+        app:layout_constraintWidth_percent="0.8">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/userButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:cornerRadius="12dp"
+            app:iconGravity="textStart"
+            app:iconPadding="12dp"/>
+    </androidx.cardview.widget.CardView>
 
     <!-- Conductor Button -->
-    <Button
-        android:id="@+id/conductorButton"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/conductorCardView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:background="@drawable/rounded_button_conductor"
-        android:text="Conductor"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        app:cardBackgroundColor="@color/Lavender"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/userButton"
-        app:layout_constraintWidth_percent="0.8" />
+        app:layout_constraintTop_toBottomOf="@id/userCardView"
+        app:layout_constraintWidth_percent="0.8">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/conductorButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conductor"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:cornerRadius="12dp"
+            app:iconGravity="textStart"
+            app:iconPadding="12dp"/>
+    </androidx.cardview.widget.CardView>
 
     <!-- Decorative Element -->
     <View
@@ -99,6 +131,5 @@
         android:background="#7B1B1B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/conductorButton"/>
-
+        app:layout_constraintTop_toBottomOf="@id/conductorCardView"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

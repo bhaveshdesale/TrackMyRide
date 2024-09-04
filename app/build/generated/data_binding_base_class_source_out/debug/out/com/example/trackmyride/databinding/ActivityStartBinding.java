@@ -4,15 +4,16 @@ package com.example.trackmyride.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.trackmyride.R;
+import com.google.android.material.button.MaterialButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -28,7 +29,10 @@ public final class ActivityStartBinding implements ViewBinding {
   public final ImageView background;
 
   @NonNull
-  public final Button conductorButton;
+  public final MaterialButton conductorButton;
+
+  @NonNull
+  public final CardView conductorCardView;
 
   @NonNull
   public final View decorativeElement;
@@ -43,21 +47,27 @@ public final class ActivityStartBinding implements ViewBinding {
   public final TextView titleText;
 
   @NonNull
-  public final Button userButton;
+  public final MaterialButton userButton;
+
+  @NonNull
+  public final CardView userCardView;
 
   private ActivityStartBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView appLogo,
-      @NonNull ImageView background, @NonNull Button conductorButton,
-      @NonNull View decorativeElement, @NonNull ConstraintLayout main,
-      @NonNull TextView subtitleText, @NonNull TextView titleText, @NonNull Button userButton) {
+      @NonNull ImageView background, @NonNull MaterialButton conductorButton,
+      @NonNull CardView conductorCardView, @NonNull View decorativeElement,
+      @NonNull ConstraintLayout main, @NonNull TextView subtitleText, @NonNull TextView titleText,
+      @NonNull MaterialButton userButton, @NonNull CardView userCardView) {
     this.rootView = rootView;
     this.appLogo = appLogo;
     this.background = background;
     this.conductorButton = conductorButton;
+    this.conductorCardView = conductorCardView;
     this.decorativeElement = decorativeElement;
     this.main = main;
     this.subtitleText = subtitleText;
     this.titleText = titleText;
     this.userButton = userButton;
+    this.userCardView = userCardView;
   }
 
   @Override
@@ -100,8 +110,14 @@ public final class ActivityStartBinding implements ViewBinding {
       }
 
       id = R.id.conductorButton;
-      Button conductorButton = ViewBindings.findChildViewById(rootView, id);
+      MaterialButton conductorButton = ViewBindings.findChildViewById(rootView, id);
       if (conductorButton == null) {
+        break missingId;
+      }
+
+      id = R.id.conductorCardView;
+      CardView conductorCardView = ViewBindings.findChildViewById(rootView, id);
+      if (conductorCardView == null) {
         break missingId;
       }
 
@@ -126,13 +142,20 @@ public final class ActivityStartBinding implements ViewBinding {
       }
 
       id = R.id.userButton;
-      Button userButton = ViewBindings.findChildViewById(rootView, id);
+      MaterialButton userButton = ViewBindings.findChildViewById(rootView, id);
       if (userButton == null) {
         break missingId;
       }
 
+      id = R.id.userCardView;
+      CardView userCardView = ViewBindings.findChildViewById(rootView, id);
+      if (userCardView == null) {
+        break missingId;
+      }
+
       return new ActivityStartBinding((ConstraintLayout) rootView, appLogo, background,
-          conductorButton, decorativeElement, main, subtitleText, titleText, userButton);
+          conductorButton, conductorCardView, decorativeElement, main, subtitleText, titleText,
+          userButton, userCardView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
