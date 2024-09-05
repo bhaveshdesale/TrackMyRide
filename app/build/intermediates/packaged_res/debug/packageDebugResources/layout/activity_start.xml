@@ -5,16 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAFAFA"
+    android:background="#F4F3F3"
     tools:context=".ui.StartActivity">
 
     <!-- Background Gradient -->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="0dp"
         app:cardElevation="0dp"
-        app:cardBackgroundColor="#0A155B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Choose Your Role"
-        android:textColor="#DDDDDD"
+        android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,9 +76,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
+        app:cardBackgroundColor="@color/Lavender"
         app:cardCornerRadius="12dp"
         app:cardElevation="4dp"
-        app:cardBackgroundColor="@color/Lavender"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/subtitleText"
@@ -92,8 +92,8 @@
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:cornerRadius="12dp"
-            app:iconPadding="12dp"
-            app:iconGravity="textStart"/>
+            app:iconGravity="textStart"
+            app:iconPadding="12dp"/>
     </androidx.cardview.widget.CardView>
 
     <!-- Conductor Button -->
@@ -102,9 +102,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        app:cardBackgroundColor="@color/Lavender"
         app:cardCornerRadius="12dp"
         app:cardElevation="4dp"
-        app:cardBackgroundColor="@color/Lavender"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/userCardView"
@@ -118,8 +118,8 @@
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:cornerRadius="12dp"
-            app:iconPadding="12dp"
-            app:iconGravity="textStart"/>
+            app:iconGravity="textStart"
+            app:iconPadding="12dp"/>
     </androidx.cardview.widget.CardView>
 
     <!-- Decorative Element -->
