@@ -28,6 +28,7 @@ Button btnUser,btnConductor;
                 public void onClick(View v) {
                     Intent intent =new Intent(StartActivity.this,SignUpActivity.class);
                     startActivity(intent);
+                    finish();
                 }
             });
             btnConductor=findViewById(R.id.conductorButton);
@@ -36,6 +37,7 @@ Button btnUser,btnConductor;
                 public void onClick(View v) {
                     Intent intent =new Intent(StartActivity.this,SignUpActivity.class);
                     startActivity(intent);
+                    finish();
                 }
             });
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());

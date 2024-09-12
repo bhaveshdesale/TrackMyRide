@@ -4,6 +4,7 @@ color Lavender
 color black
 color white
 drawable applogo
+drawable applogo2
 drawable background_gradient
 drawable baseline_account_circle_24
 drawable baseline_add_circle_24
@@ -12,6 +13,7 @@ drawable baseline_email_24
 drawable baseline_home_24
 drawable baseline_person_24
 drawable baseline_person_pin_24
+drawable bus
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable lavender_border
@@ -50,6 +52,7 @@ layout fragment_add
 layout fragment_home
 menu bottom_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string gcm_defaultSenderId
